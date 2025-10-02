@@ -39,5 +39,3 @@ jobs:
       - name: Image digest
         run: echo "Image pushed successfully to ${{ secrets.DOCKER_USERNAME }}/${{ env.DOCKER_IMAGE }}:${{ env.DOCKER_TAG }}"
 
-
-
